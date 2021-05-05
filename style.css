@@ -1,0 +1,129 @@
+/*!
+Theme Name: W3WebService
+Theme URI: http://underscores.me/
+Author: wws
+Author URI: https://wws.com
+Description: This is W3WebService
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wws
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+W3WebService is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/* Mixin Values */
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+body {
+  background-color: #f1f1f1;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Site
+--------------------------------------------------------------*/
+/* Banner Section */
+.banner {
+  background: #8E8E8E;
+}
+
+.banner__cover {
+  background-color: #262626;
+}
+
+/* Navigation Section */
+.navigation {
+  background-color: #262626;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* About Section */
+.about {
+  background-color: #00A0A1;
+}
+
+/* Education Section */
+.education__heading {
+  color: #ff6d5e;
+}
+
+.eduction__circle {
+  background-color: #ff6d5e;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Project Section */
+.project {
+  background-color: #207dc9;
+}
+
+/* Contact */
+.contact {
+  background-color: #2a2f33;
+}
+
+.contact_card {
+  background-color: #2a2f33;
+}
+
+.contact__card--number {
+  font-size: 43px;
+}
+
+.contact__card--body {
+  background-color: #2a2f33;
+}
+
+.contact__msgbox-bg {
+  background-color: #2a2f33;
+}
+
+/* Footer */
+.footer {
+  background-color: #21759b;
+}
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+/*# sourceMappingURL=style.css.map */
